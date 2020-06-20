@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delete</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- my css styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- navbar  -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="http://localhost/php-pdo-test/index.php">PHP::PDO Mysql Database Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost/php-pdo-test/ui/create.html">Create <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost/php-pdo-test/ui/read.html">Read</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost/php-pdo-test/ui/update.html">Update</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost/php-pdo-test/ui/delete.html">Delete</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="container">
+        <form action="" class="form mt-5">
+
+            <h3 class="font-weight-bold" style="color: gray;">Delete data from database: </h3>
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Please enter the id (as: 1 or 2, 3) which you want to delete" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            </div>
+
+            <h3 class="font-weight-bold" style="color: lightgray;">Or,</h3>
+    
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Please enter full name" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            </div>
+    
+            <button type="submit" class="btn btn-primary btn-block">DELETE</button>
+        </form>
+
+      </div>
+    
+</body>
+</html>

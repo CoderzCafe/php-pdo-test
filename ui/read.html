@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Read data</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<!-- my css styles -->
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="http://localhost/php-pdo-test/index.html">PHP::PDO Mysql Database Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost/php-pdo-test/ui/create.html">Create <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost/php-pdo-test/ui/read.html">Read</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost/php-pdo-test/ui/update.html">Update</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost/php-pdo-test/ui/delete.html">Delete</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<div class="container">
+
+    <br><br>
+    <h3 class="font-weight-bold" style="color: gray;">Read data from database: </h3>
+
+    <table class="table">
+
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>CONTACTS</th>
+            <th>ADDRESS</th>
+        </tr>
+
+        <tr class="table-primary" style="margin-bottom: 10px;">
+            <td>A</td>
+            <td>BBBBB</td>
+            <td>0101010</td>
+            <td>I</td>
+        </tr>
+
+        <tr class="table-success">
+            <td>A</td>
+            <td>BBBBB</td>
+            <td>0101010</td>
+            <td>II</td>
+        </tr>
+
+        <tr class="table-info">
+            <td>A</td>
+            <td>BBBBB</td>
+            <td>0101010</td>
+            <td>III</td>
+        </tr>
+
+        <tr class="table-danger">
+            <td>A</td>
+            <td>BBBBB</td>
+            <td>0101010</td>
+            <td>IV</td>
+        </tr>
+
+        <tr class="table-success">
+            <td>A</td>
+            <td>BBBBB</td>
+            <td>0101010</td>
+            <td>V</td>
+        </tr>
+    </table>
+</div>
+    
+</body>
+</html>
